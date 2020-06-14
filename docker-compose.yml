@@ -14,4 +14,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - data_volume:/boxfuse-sample-java-war-hello/target/
+  volumes:
+    data_volume:
 
