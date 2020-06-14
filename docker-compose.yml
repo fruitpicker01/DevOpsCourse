@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    images: tomcat-maven:latest
+    image: tomcat-maven:latest
     links:
       - maven
     ports:
