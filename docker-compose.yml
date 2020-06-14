@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: tomcat-maven:latest
+    image: freedomkk/tomcat-maven:latest
     links:
       - maven
     ports:
